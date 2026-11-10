@@ -1,0 +1,8 @@
+# Configuració xarxa
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enps03:
+      dhcp4: true

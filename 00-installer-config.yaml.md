@@ -11,6 +11,4 @@ network:
         - to: default
           via: 192.168.1.1
       nameservers:
-        addresses: [192.168.1.1]
-    enps08:
-      dhcp4: true
+        addresses: [8.8.8.8]
